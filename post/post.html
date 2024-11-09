@@ -1,0 +1,112 @@
+React post page html
+
+<div>
+        <header className="header">
+            <div className="logo-section">
+                <img src={facebook} className="logo" alt="logo"/>
+            </div>
+            
+            <div className="main-navigation-section">
+                <ul className="nav-list">
+                    <li className="nav-item">
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" ><path d="M9.464 1.286C10.294.803 11.092.5 12 .5c.908 0 1.707.303 2.537.786.795.462 1.7 1.142 2.815 1.977l2.232 1.675c1.391 1.042 2.359 1.766 2.888 2.826.53 1.059.53 2.268.528 4.006v4.3c0 1.355 0 2.471-.119 3.355-.124.928-.396 1.747-1.052 2.403-.657.657-1.476.928-2.404 1.053-.884.119-2 .119-3.354.119H7.93c-1.354 0-2.471 0-3.355-.119-.928-.125-1.747-.396-2.403-1.053-.656-.656-.928-1.475-1.053-2.403C1 18.541 1 17.425 1 16.07v-4.3c0-1.738-.002-2.947.528-4.006.53-1.06 1.497-1.784 2.888-2.826L6.65 3.263c1.114-.835 2.02-1.515 2.815-1.977zM10.5 13A1.5 1.5 0 0 0 9 14.5V21h6v-6.5a1.5 1.5 0 0 0-1.5-1.5h-3z"></path></svg>
+                    </li>
+                    <li className="nav-item">
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M12.496 5a4 4 0 1 1 8 0 4 4 0 0 1-8 0zm4-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-9 2.5a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm-2 4a2 2 0 1 1 4 0 2 2 0 0 1-4 0zM5.5 15a5 5 0 0 0-5 5 3 3 0 0 0 3 3h8.006a3 3 0 0 0 3-3 5 5 0 0 0-5-5H5.5zm-3 5a3 3 0 0 1 3-3h4.006a3 3 0 0 1 3 3 1 1 0 0 1-1 1H3.5a1 1 0 0 1-1-1zm12-9.5a5.04 5.04 0 0 0-.37.014 1 1 0 0 0 .146 1.994c.074-.005.149-.008.224-.008h4.006a3 3 0 0 1 3 3 1 1 0 0 1-1 1h-3.398a1 1 0 1 0 0 2h3.398a3 3 0 0 0 3-3 5 5 0 0 0-5-5H14.5z"></path></svg>
+                    </li>
+                    <li className="nav-item">
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M10.996 8.132A1 1 0 0 0 9.5 9v4a1 1 0 0 0 1.496.868l3.5-2a1 1 0 0 0 0-1.736l-3.5-2z"></path><path d="M14.573 2H9.427c-1.824 0-3.293 0-4.45.155-1.2.162-2.21.507-3.013 1.31C1.162 4.266.817 5.277.655 6.477.5 7.634.5 9.103.5 10.927v.146c0 1.824 0 3.293.155 4.45.162 1.2.507 2.21 1.31 3.012.802.803 1.813 1.148 3.013 1.31C6.134 20 7.603 20 9.427 20h5.146c1.824 0 3.293 0 4.45-.155 1.2-.162 2.21-.507 3.012-1.31.803-.802 1.148-1.813 1.31-3.013.155-1.156.155-2.625.155-4.449v-.146c0-1.824 0-3.293-.155-4.45-.162-1.2-.507-2.21-1.31-3.013-.802-.802-1.813-1.147-3.013-1.309C17.866 2 16.397 2 14.573 2zM3.38 4.879c.369-.37.887-.61 1.865-.741C6.251 4.002 7.586 4 9.5 4h5c1.914 0 3.249.002 4.256.138.978.131 1.496.372 1.865.74.37.37.61.888.742 1.866.135 1.007.137 2.342.137 4.256 0 1.914-.002 3.249-.137 4.256-.132.978-.373 1.496-.742 1.865-.369.37-.887.61-1.865.742-1.007.135-2.342.137-4.256.137h-5c-1.914 0-3.249-.002-4.256-.137-.978-.132-1.496-.373-1.865-.742-.37-.369-.61-.887-.741-1.865C2.502 14.249 2.5 12.914 2.5 11c0-1.914.002-3.249.138-4.256.131-.978.372-1.496.74-1.865zM8 21.5a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2H8z"></path></svg>
+                    </li>
+                    <li className="nav-item">
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M1.588 3.227A3.125 3.125 0 0 1 4.58 1h14.84c1.38 0 2.597.905 2.993 2.227l.816 2.719a6.47 6.47 0 0 1 .272 1.854A5.183 5.183 0 0 1 22 11.455v4.615c0 1.355 0 2.471-.119 3.355-.125.928-.396 1.747-1.053 2.403-.656.657-1.475.928-2.403 1.053-.884.12-2 .119-3.354.119H8.929c-1.354 0-2.47 0-3.354-.119-.928-.125-1.747-.396-2.403-1.053-.657-.656-.929-1.475-1.053-2.403-.12-.884-.119-2-.119-3.354V11.5l.001-.045A5.184 5.184 0 0 1 .5 7.8c0-.628.092-1.252.272-1.854l.816-2.719zM10 21h4v-3.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V21zm6-.002c.918-.005 1.608-.025 2.159-.099.706-.095 1.033-.262 1.255-.485.223-.222.39-.55.485-1.255.099-.735.101-1.716.101-3.159v-3.284a5.195 5.195 0 0 1-1.7.284 5.18 5.18 0 0 1-3.15-1.062A5.18 5.18 0 0 1 12 13a5.18 5.18 0 0 1-3.15-1.062A5.18 5.18 0 0 1 5.7 13a5.2 5.2 0 0 1-1.7-.284V16c0 1.442.002 2.424.1 3.159.096.706.263 1.033.486 1.255.222.223.55.39 1.255.485.551.074 1.24.094 2.159.1V17.5a2.5 2.5 0 0 1 2.5-2.5h3a2.5 2.5 0 0 1 2.5 2.5v3.498zM4.581 3c-.497 0-.935.326-1.078.802l-.815 2.72A4.45 4.45 0 0 0 2.5 7.8a3.2 3.2 0 0 0 5.6 2.117 1 1 0 0 1 1.5 0A3.19 3.19 0 0 0 12 11a3.19 3.19 0 0 0 2.4-1.083 1 1 0 0 1 1.5 0A3.2 3.2 0 0 0 21.5 7.8c0-.434-.063-.865-.188-1.28l-.816-2.72A1.125 1.125 0 0 0 19.42 3H4.58z"></path></svg>
+                    </li>
+                    <li className="nav-item">
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M8 8a1 1 0 0 1 1 1v2h2a1 1 0 1 1 0 2H9v2a1 1 0 1 1-2 0v-2H5a1 1 0 1 1 0-2h2V9a1 1 0 0 1 1-1zm8 2a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0zm-2 4a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0z"></path><path d="M.5 11a7 7 0 0 1 7-7h9a7 7 0 0 1 7 7v2a7 7 0 0 1-7 7h-9a7 7 0 0 1-7-7v-2zm7-5a5 5 0 0 0-5 5v2a5 5 0 0 0 5 5h9a5 5 0 0 0 5-5v-2a5 5 0 0 0-5-5h-9z"></path></svg>
+                    </li>
+                </ul>
+            </div>
+            <div className="profile-section">
+                <div>
+                    <img src={profile} alt="profile_image" className="profile"/>
+                </div>
+            </div>
+        </header>
+        <main className="main-section">
+            <div className="main-container">
+                <div className="navigation-section">
+                    <ul className="nav-list">
+                        <li className="nav-item">
+                                <div className="nav-content">
+                                    <div className="nav-content with-image">
+                                        <i data-visualcompletion="css-img" className="friends"></i>
+                                    </div>
+                                    <p>Friends</p>
+                                </div>
+                        </li>
+                        <li className="nav-item">
+                                <div className="nav-content">
+                                    <div className="nav-content with-image">
+                                        <i data-visualcompletion="css-img" className="memories"></i>
+                                    </div>
+                                    <p>Memories</p>
+                                </div>
+                        </li>
+                    </ul>
+                </div>
+                <div className="post-section">
+                    <div className="create-post">
+                        <img src={profile} alt="profile_image" className="post-profile"/>
+                        <input type="" placeholder="What's on your mind?" className="post-input"/>
+                        <button value="Send" className="send-btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="20" fill="currentColor"><path d="M16.1 260.2c-22.6 12.9-20.5 47.3 3.6 57.3L160 376l0 103.3c0 18.1 14.6 32.7 32.7 32.7c9.7 0 18.9-4.3 25.1-11.8l62-74.3 123.9 51.6c18.9 7.9 40.8-4.5 43.9-24.7l64-416c1.9-12.1-3.4-24.3-13.5-31.2s-23.3-7.5-34-1.4l-448 256zm52.1 25.5L409.7 90.6 190.1 336l1.2 1L68.2 285.7zM403.3 425.4L236.7 355.9 450.8 116.6 403.3 425.4z"/></svg></button>
+                    </div>
+                    <div className="posts">
+                        <div className="post">
+                            <div className="post-header">
+                                <div className="post-header-wrapper">
+                                    <img src={postProfile} className="post-profile with-status" alt="post-profile"/>
+                                    <div className="post-profile-detail">
+                                        <p className="post-profile-name">ThyView . <span className="follow"> Follow </span></p>
+                                        <p className="date">31 October at 22:14</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="post-content">
+                                <div className="post-text">
+                                    Siddhu made his television debut in 2019 with the reality game show "Killadi Rani" on Jaya TV. His YouTube channel, VJ Siddhu Vlogs, has also been well-received, with several of his videos amassing millions of views.                                </div>
+                                <div className="post-image">
+                                    <img src={home} className="post-image with-likes" alt='post-image'/>
+                                </div>
+                            </div>
+                            <div className="post-social-media">
+                                <div className="like-icon">
+                                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" width="20" height="20">
+                                        <path d="M43.465,18.631c-1.335-1.672-3.328-2.631-5.466-2.631h-9.717l1.287-9.012c.307-2.195-.72-4.349-2.609-5.482-.543-.331-1.172-.506-1.821-.506-1.387,0-2.645,.819-3.204,2.083l-4.292,9.643c-.724,1.642-1.852,3.048-3.265,4.154-.709-1.125-1.953-1.881-3.379-1.881H7c-2.206,0-4,1.794-4,4v18c0,2.206,1.794,4,4,4h4c1.55,0,2.882-.895,3.546-2.188l3.529,.784c1.22,.268,2.459,.403,3.685,.403h13.96c3.29,0,6.096-2.24,6.825-5.447l2.28-10.001c.474-2.088-.022-4.246-1.359-5.92ZM13,37c0,1.103-.897,2-2,2H7c-1.103,0-2-.897-2-2V19c0-1.103,.897-2,2-2h4c1.103,0,2,.897,2,2v18Zm29.874-12.892l-2.28,10c-.521,2.291-2.525,3.892-4.875,3.892h-13.96c-1.081,0-2.177-.12-3.253-.356l-3.506-.78V19c0-.024-.007-.046-.007-.069,1.973-1.363,3.519-3.214,4.48-5.394L23.764,3.895c.355-.804,1.425-1.126,2.161-.677,1.207,.724,1.86,2.096,1.665,3.491l-1.45,10.15c-.041,.287,.044,.578,.234,.797,.19,.219,.465,.345,.755,.345h10.87c1.527,0,2.95,.685,3.903,1.879,.956,1.196,1.31,2.738,.972,4.229Z"/>
+                                    </svg>
+                                    <p>Like</p>
+                                </div>
+                                <div className="comment-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="22" height="22" id="comment">
+                                        <path fill="#231F20" d="M25.784 21.017A10.992 10.992 0 0 0 27 16c0-6.065-4.935-11-11-11S5 9.935 5 16s4.935 11 11 11c1.742 0 3.468-.419 5.018-1.215l4.74 1.185a.996.996 0 0 0 .949-.263 1 1 0 0 0 .263-.95l-1.186-4.74zm-2.033.11.874 3.498-3.498-.875a1.006 1.006 0 0 0-.731.098A8.99 8.99 0 0 1 16 25c-4.963 0-9-4.038-9-9s4.037-9 9-9 9 4.038 9 9a8.997 8.997 0 0 1-1.151 4.395.995.995 0 0 0-.098.732z"></path>
+                                      </svg>
+                                    <p>Comment</p>
+                                </div>
+                            </div>
+                            <div className="comments-section">
+                                <div className="comments-section-content">
+                                    <div className="comments">
+                                        <div className="comment">Happy Happpieeee</div>
+                                    </div>
+                                    <div className="comment-form">
+                                        <input type="text" name="comment-input" className="comment-input"/>
+                                        <button value="post" className="comment-post"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="20" fill="currentColor"><path d="M16.1 260.2c-22.6 12.9-20.5 47.3 3.6 57.3L160 376l0 103.3c0 18.1 14.6 32.7 32.7 32.7c9.7 0 18.9-4.3 25.1-11.8l62-74.3 123.9 51.6c18.9 7.9 40.8-4.5 43.9-24.7l64-416c1.9-12.1-3.4-24.3-13.5-31.2s-23.3-7.5-34-1.4l-448 256zm52.1 25.5L409.7 90.6 190.1 336l1.2 1L68.2 285.7zM403.3 425.4L236.7 355.9 450.8 116.6 403.3 425.4z"/></svg></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="group-chat-section">
+                </div>
+            </div>
+        </main>
+    </div>
